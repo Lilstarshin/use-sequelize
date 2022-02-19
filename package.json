@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "server": "nodemon src/main.js",
+    "seq": "sequelize-cli",
     "lint": "eslint src/**/*"
   },
   "engines": {
@@ -38,13 +38,23 @@
     "pg": "^8.7.3",
     "prompts": "^2.4.2",
     "pug": "^3.0.2",
+    "sequelize": "^6.16.1",
+    "sequelize-cli": "^6.4.1",
     "static": "^2.0.0",
     "tailwindcss": "^3.0.22"
   },
-  "name": "use-pg",
-  "version": "1.0.0",
+  "name": "use-sequelize",
+  "version": "0.1.0",
   "main": "ecosystem.config.js",
-  "author": "",
+  "author": "lilstar",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lilstarshin/use-sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lilstarshin/use-sequelize/issues"
+  },
+  "homepage": "https://github.com/Lilstarshin/use-sequelize#readme",
   "description": ""
 }
